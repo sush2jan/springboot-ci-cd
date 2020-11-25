@@ -16,7 +16,7 @@
                 {
                     "protocol": "tcp",
                     "containerPort": 8080,
-                    "hostPort": 8090
+                    "hostPort": 8080
                 }
             ],
             "logConfiguration": {
