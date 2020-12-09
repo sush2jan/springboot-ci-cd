@@ -8,7 +8,7 @@ public class ErrorHandlerController implements ErrorController{
 	private static final String PATH = "/";
 	 @RequestMapping(value=PATH)
 	 public String error() {
-	  return "Welcome to CI/CD demo :)";
+	  return "Welcome to Sprint demo :)";
 	 }
 	 @Override
 	 public String getErrorPath() {
