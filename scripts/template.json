@@ -1,5 +1,5 @@
 {
-    "family": "pm-poc-ecs-task-defn",
+    "family": "pm-ecs-task-defn",
     "placementConstraints": [],
     "volumes": [],
     "requiresCompatibilities": [
@@ -8,7 +8,7 @@
     "containerDefinitions": [
         {
             "memoryReservation": 128,
-            "name": "pm-poc-ecs-task-defn",
+            "name": "pm-ecs-task-defn",
             "mountPoints": [],
             "image": "DOCKER_IMAGE_NAME",
             "essential": true,
